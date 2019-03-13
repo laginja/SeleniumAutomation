@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-13T08:31:32Z" name="Suite" finished-at="2019-03-13T08:32:35Z" duration-ms="62646">
+    <groups>
+    </groups>
+    <test started-at="2019-03-13T08:31:32Z" name="Test HomePage" finished-at="2019-03-13T08:32:12Z" duration-ms="40275">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@791f145a]" started-at="2019-03-13T08:31:32Z" name="initialize" finished-at="2019-03-13T08:31:43Z" duration-ms="10655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@791f145a]" started-at="2019-03-13T08:31:43Z" name="basePageNavigation" data-provider="getData" finished-at="2019-03-13T08:31:50Z" duration-ms="7110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUser@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password00111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.HomePage@791f145a]" started-at="2019-03-13T08:31:50Z" name="closeBrowser" finished-at="2019-03-13T08:31:50Z" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@791f145a]" started-at="2019-03-13T08:31:50Z" name="initialize" finished-at="2019-03-13T08:32:03Z" duration-ms="13097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@791f145a]" started-at="2019-03-13T08:32:03Z" name="basePageNavigation" data-provider="getData" finished-at="2019-03-13T08:32:12Z" duration-ms="9054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[drugipass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.HomePage@791f145a]" started-at="2019-03-13T08:32:12Z" name="closeBrowser" finished-at="2019-03-13T08:32:12Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test HomePage -->
+    <test started-at="2019-03-13T08:32:13Z" name="Test ValidateContactLink" finished-at="2019-03-13T08:32:23Z" duration-ms="10488">
+      <class name="Academy.ValidateContactLink">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateContactLink@11392934]" started-at="2019-03-13T08:32:13Z" name="initialize" finished-at="2019-03-13T08:32:23Z" duration-ms="10242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ValidateLink()[pri:0, instance:Academy.ValidateContactLink@11392934]" started-at="2019-03-13T08:32:23Z" name="ValidateLink" finished-at="2019-03-13T08:32:23Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.ValidateContactLink@11392934]" started-at="2019-03-13T08:32:23Z" name="closeBrowser" finished-at="2019-03-13T08:32:23Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidateContactLink -->
+    </test> <!-- Test ValidateContactLink -->
+    <test started-at="2019-03-13T08:32:23Z" name="Test ValidateTitle" finished-at="2019-03-13T08:32:35Z" duration-ms="11198">
+      <class name="Academy.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateTitle@5b1669c0]" started-at="2019-03-13T08:32:23Z" name="initialize" finished-at="2019-03-13T08:32:32Z" duration-ms="8841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Validate()[pri:0, instance:Academy.ValidateTitle@5b1669c0]" started-at="2019-03-13T08:32:32Z" name="Validate" finished-at="2019-03-13T08:32:32Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.ValidateTitle@5b1669c0]" started-at="2019-03-13T08:32:32Z" name="closeBrowser" finished-at="2019-03-13T08:32:35Z" duration-ms="2315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Test ValidateTitle -->
+  </suite> <!-- Suite -->
+</testng-results>
